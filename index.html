@@ -16,142 +16,164 @@
     <title>Photo Carousel</title>
   </head>
 
-  <body style = "background-color: black;">
-
-    <div class = "row justify-content-center">
-      <div class = "text-center m-4">
-        <h1 class = "display-1 text-white">Lego Creations</h1>
+  <body style="background-color: black">
+    <div class="row justify-content-center">
+      <div class="text-center m-4">
+        <h1 class="display-1 text-white">Lego Creations</h1>
       </div>
     </div>
 
-    <div class="row justify-content-center ">
-      
-    <!-- First Column -->
+    <div class="row justify-content-center">
+      <!-- First Column -->
 
-        <div class = "col-sm-5">
-
-          <div class="card text-white bg-black m-1 mb-4" >
-            <div class="card-body">
-              <h5>Original designs - inspired by the 
-                <a class = "text-white" href = "https://en.wikipedia.org/wiki/Age_of_Discovery">Age of Discovery</a>
-                 & my exploration of Mesoamerican archaeological sites</h5>
-
-            </div>
-          </div>
-    <!-- Carousel 1 (left)-->
-            <div class="card bg-black m-1 mb-4">
-              <div
-                id="carousel1"
-                class="carousel slide carousel-fade"
-                data-bs-ride="carousel"
+      <div class="col-sm-5">
+        <div class="card text-white bg-black m-1 mb-4">
+          <div class="card-body">
+            <h5>
+              Original designs - inspired by the
+              <a
+                class="text-white"
+                href="https://en.wikipedia.org/wiki/Age_of_Discovery"
+                >Age of Discovery</a
               >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carousel1"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carousel1"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carousel1"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carousel1"
-                    data-bs-slide-to="3"
-                    aria-label="Slide 4"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="./images/Pyramid.JPG"
-                      class="d-block w-100 rounded-3"
-                      alt="Pyramid"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Mayan Pyramid</h5>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./images/Fort.JPG"
-                      class="d-block w-100 rounded-3"
-                      alt="Fort"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Fort</h5>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./images/Ball Court.JPG"
-                      class="d-block w-100 rounded-3"
-                      alt="Ball Court"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Mayan Ball Court</h5>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./images/Stable.JPG"
-                      class="d-block w-100 rounded-3"
-                      alt="Stable"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Stable</h5>
-                    </div>
-                  </div>
-                  
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carousel1"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carousel1"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-    
-            </div>
+              & my exploration of Mesoamerican archaeological sites
+            </h5>
           </div>
-
-    
-    <!-- Second Column -->
-      <div class = "col-sm-5 ">
-      <!-- Carousel 2 (right top)-->
+        </div>
+        <!-- Carousel 1 (left)-->
         <div class="card bg-black m-1 mb-4">
-          
-            <div
+          <div
+            id="carousel1"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/Pyramid.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Pyramid"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Mesoamerican_pyramids"
+                      >Mayan Pyramid</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Fort.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Fort"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Fortification"
+                      >Fort</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Ball Court.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Ball Court"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Mesoamerican_ballcourt"
+                      >Mayan Ball Court</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Stable.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Stable"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Stable"
+                      >Stable</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel1"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel1"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Column -->
+      <div class="col-sm-5">
+        <!-- Carousel 2 (right top)-->
+        <div class="card bg-black m-1 mb-4">
+          <div
             id="carousel2"
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
@@ -203,7 +225,6 @@
               ></button>
             </div>
             <div class="carousel-inner">
-              
               <div class="carousel-item active">
                 <img
                   src="./images/Galleon.JPG"
@@ -211,7 +232,13 @@
                   alt="Galleon"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Galleon</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Galleon"
+                      >Galleon</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -221,7 +248,13 @@
                   alt="Village"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Mayan Village</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Maya_city"
+                      >Mayan Village</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -231,7 +264,13 @@
                   alt="Caravel"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Caravel</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Caravel"
+                      >Caravel</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -241,17 +280,13 @@
                   alt="Coastline"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Coastline</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./images/Covered Wagon.JPG"
-                  class="d-block w-100 rounded-3"
-                  alt="Covered Wagon"
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Covered Wagon</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Coast"
+                      >Coastline</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -261,7 +296,29 @@
                   alt="Gristmill"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Gristmill</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Gristmill"
+                      >Gristmill</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Covered Wagon.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Covered Wagon"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Covered_wagon"
+                      >Covered Wagon</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -271,7 +328,13 @@
                   alt="Island"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Island</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Island"
+                      >Island</a
+                    >
+                  </h5>
                 </div>
               </div>
             </div>
@@ -301,12 +364,9 @@
             </button>
           </div>
         </div>
-      
 
-      
-
-      <!-- Carousel 3 (right bottom)-->
-            <div class="card bg-black m-1 mb-4">
+        <!-- Carousel 3 (right bottom)-->
+        <div class="card bg-black m-1 mb-4">
           <div
             id="carousel3"
             class="carousel slide carousel-fade"
@@ -365,8 +425,6 @@
               ></button>
             </div>
             <div class="carousel-inner">
-
-
               <div class="carousel-item active">
                 <img
                   src="./images/Tavern.JPG"
@@ -374,7 +432,13 @@
                   alt="Tavern"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Tavern</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Tavern"
+                      >Tavern</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -384,7 +448,13 @@
                   alt="Carriage"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Carriage</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Carriage"
+                      >Carriage</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -394,27 +464,13 @@
                   alt="Main Plaza"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Main Plaza</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./images/Farm Wagon.JPG"
-                  class="d-block w-100 rounded-3"
-                  alt="Farm Wagon"
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Farm Wagon</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./images/Harbor.JPG"
-                  class="d-block w-100 rounded-3"
-                  alt="Harbor"
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Harbor</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Town_square"
+                      >Main Plaza</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -424,17 +480,61 @@
                   alt="Trade Cog"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Trade Cog</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Cog_(ship)"
+                      >Trade Cog</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Farm Wagon.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Farm Wagon"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Wagon"
+                      >Farm Wagon</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Harbor.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Harbor"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Harbor"
+                      >Harbor</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
                 <img
                   src="./images/Office.JPG"
                   class="d-block w-100 rounded-3"
-                  alt="Office"
+                  alt="Court"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Office</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Court"
+                      >Court</a
+                    >
+                  </h5>
                 </div>
               </div>
               <div class="carousel-item">
@@ -444,7 +544,13 @@
                   alt="Tzompantli"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Mayan Tzompantli</h5>
+                  <h5>
+                    <a
+                      class="text-white"
+                      href="https://en.wikipedia.org/wiki/Tzompantli"
+                      >Mayan Tzompantli</a
+                    >
+                  </h5>
                 </div>
               </div>
             </div>
@@ -473,14 +579,11 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
         </div>
       </div>
-      
-      
     </div>
 
-    <div class = "m-4"></div>
+    <div class="m-4"></div>
 
     <!-- Bootstrap Bundle with Popper -->
     <script
