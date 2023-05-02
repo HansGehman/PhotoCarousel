@@ -15,6 +15,7 @@
 
     <title>Photo Carousel</title>
   </head>
+
   <body style = "background-color: black;">
 
     <div class = "row justify-content-center">
@@ -25,25 +26,29 @@
 
     <div class="row justify-content-center ">
       
+    <!-- First Column -->
+
         <div class = "col-sm-5">
 
           <div class="card text-white bg-black m-1 mb-4" >
             <div class="card-body">
-              <h5>Original designs - inspired by the Age of Discovery & my exploration of Mesoamerican archaeological sites</h5>
+              <h5>Original designs - inspired by the 
+                <a class = "text-white" href = "https://en.wikipedia.org/wiki/Age_of_Discovery">Age of Discovery</a>
+                 & my exploration of Mesoamerican archaeological sites</h5>
 
             </div>
           </div>
-
+    <!-- Carousel 1 (left)-->
             <div class="card bg-black m-1 mb-4">
               <div
-                id="carousel3"
+                id="carousel1"
                 class="carousel slide carousel-fade"
                 data-bs-ride="carousel"
               >
                 <div class="carousel-indicators">
                   <button
                     type="button"
-                    data-bs-target="#carousel3"
+                    data-bs-target="#carousel1"
                     data-bs-slide-to="0"
                     class="active"
                     aria-current="true"
@@ -51,15 +56,21 @@
                   ></button>
                   <button
                     type="button"
-                    data-bs-target="#carousel3"
+                    data-bs-target="#carousel1"
                     data-bs-slide-to="1"
                     aria-label="Slide 2"
                   ></button>
                   <button
                     type="button"
-                    data-bs-target="#carousel3"
+                    data-bs-target="#carousel1"
                     data-bs-slide-to="2"
                     aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carousel1"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
                   ></button>
                 </div>
                 <div class="carousel-inner">
@@ -67,20 +78,40 @@
                     <img
                       src="./images/Pyramid.JPG"
                       class="d-block w-100 rounded-3"
-                      alt="..."
+                      alt="Pyramid"
                     />
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
+                      <h5>Mayan Pyramid</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/Fort.JPG"
+                      class="d-block w-100 rounded-3"
+                      alt="Fort"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fort</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img
                       src="./images/Ball Court.JPG"
                       class="d-block w-100 rounded-3"
-                      alt="..."
+                      alt="Ball Court"
                     />
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
+                      <h5>Mayan Ball Court</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/Stable.JPG"
+                      class="d-block w-100 rounded-3"
+                      alt="Stable"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Stable</h5>
                     </div>
                   </div>
                   
@@ -88,7 +119,7 @@
                 <button
                   class="carousel-control-prev"
                   type="button"
-                  data-bs-target="#carousel3"
+                  data-bs-target="#carousel1"
                   data-bs-slide="prev"
                 >
                   <span
@@ -100,7 +131,7 @@
                 <button
                   class="carousel-control-next"
                   type="button"
-                  data-bs-target="#carousel3"
+                  data-bs-target="#carousel1"
                   data-bs-slide="next"
                 >
                   <span
@@ -115,93 +146,12 @@
           </div>
 
     
-
+    <!-- Second Column -->
       <div class = "col-sm-5 ">
+      <!-- Carousel 2 (right top)-->
         <div class="card bg-black m-1 mb-4">
           
             <div
-            id="carousel1"
-            class="carousel slide carousel-fade"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carousel1"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel1"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel1"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              
-              <div class="carousel-item active">
-                <img
-                  src="./images/Village.JPG"
-                  class="d-block w-100 rounded-3"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./images/Village.JPG"
-                  class="d-block w-100 rounded-3"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                </div>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carousel1"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carousel1"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      
-
-      
-
-        
-            <div class="card bg-black m-1 mb-4">
-          <div
             id="carousel2"
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
@@ -227,28 +177,101 @@
                 data-bs-slide-to="2"
                 aria-label="Slide 3"
               ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel2"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel2"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel2"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel2"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
             </div>
             <div class="carousel-inner">
-
-
+              
               <div class="carousel-item active">
                 <img
-                  src="./images/Village.JPG"
+                  src="./images/Galleon.JPG"
                   class="d-block w-100 rounded-3"
-                  alt="..."
+                  alt="Galleon"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
+                  <h5>Galleon</h5>
                 </div>
               </div>
               <div class="carousel-item">
                 <img
                   src="./images/Village.JPG"
                   class="d-block w-100 rounded-3"
-                  alt="..."
+                  alt="Village"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
+                  <h5>Mayan Village</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Caravel.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Caravel"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Caravel</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Coastline.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Coastline"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Coastline</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Covered Wagon.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Covered Wagon"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Covered Wagon</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Gristmill.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Gristmill"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Gristmill</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Island.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Island"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Island</h5>
                 </div>
               </div>
             </div>
@@ -268,6 +291,179 @@
               class="carousel-control-next"
               type="button"
               data-bs-target="#carousel2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      
+
+      
+
+      <!-- Carousel 3 (right bottom)-->
+            <div class="card bg-black m-1 mb-4">
+          <div
+            id="carousel3"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel3"
+                data-bs-slide-to="7"
+                aria-label="Slide 8"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+
+
+              <div class="carousel-item active">
+                <img
+                  src="./images/Tavern.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Tavern"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tavern</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Carriage.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Carriage"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Carriage</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Main Plaza.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Main Plaza"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Main Plaza</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Farm Wagon.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Farm Wagon"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Farm Wagon</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Harbor.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Harbor"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Harbor</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Trade Cog.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Trade Cog"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Trade Cog</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Office.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Office"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Office</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/Tzompantli.JPG"
+                  class="d-block w-100 rounded-3"
+                  alt="Tzompantli"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mayan Tzompantli</h5>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel3"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel3"
               data-bs-slide="next"
             >
               <span
